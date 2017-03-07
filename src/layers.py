@@ -17,8 +17,8 @@ import timeit
 import theano
 from theano import tensor as T
 
-from hw4_utils import load_data, contextwin, shuffle, conlleval, check_dir
-from hw4_nn import RNNSLU
+from utils import load_data, contextwin, shuffle, conlleval, check_dir
+from nn import RNNSLU
 
 # Otherwise the deepcopy fails
 import sys
